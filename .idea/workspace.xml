@@ -2,12 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="861ee6d3-5b46-40ab-b2ab-6a9af34db8b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/raw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/test.js" afterPath="$PROJECT_DIR$/routes/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/error.jade" afterPath="$PROJECT_DIR$/views/error.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/canvas-postbuild.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/canvas.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas-postbuild.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Canvas.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasGradient.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasPattern.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasRenderingContext2d.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/FontFace.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Image.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/ImageData.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/color.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/init.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas-postbuild.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas-postbuild.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Canvas.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasGradient.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasPattern.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasRenderingContext2d.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/FontFace.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Image.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/ImageData.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/color.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/init.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/binding.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/canvas-postbuild.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/canvas.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/bindings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/context2d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/jpegstream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/pdfstream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/pngstream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Canvas.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Canvas.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasGradient.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasGradient.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasPattern.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasPattern.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasRenderingContext2d.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasRenderingContext2d.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/FontFace.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/FontFace.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Image.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Image.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/ImageData.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/ImageData.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/JPEGStream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/PNG.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Point.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/closure.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/color.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/color.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/init.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/util/has_lib.sh" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +84,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -36,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -56,17 +118,17 @@
         <entry file="file://$PROJECT_DIR$/views/error.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="64" column="28" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="447">
+              <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -103,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/routes/slovar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1748">
-              <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
+              <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -199,21 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sszj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sszj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,12 +462,12 @@
       <workItem from="1494486970526" duration="11000" />
       <workItem from="1494629976418" duration="37000" />
       <workItem from="1494849962829" duration="4800000" />
-      <workItem from="1494859939594" duration="12265000" />
+      <workItem from="1494859939594" duration="12731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42585000" />
+    <option name="totallyTimeSpent" value="43051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1046" extended-state="0" />
@@ -429,7 +477,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.0875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.9125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.9125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.49583334" order="8" side_tool="false" content_ui="tabs" />
@@ -803,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/routes/slovar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1748">
-          <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
+          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -818,18 +866,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="64" column="28" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="70" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -845,7 +885,7 @@
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -854,6 +894,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
           <folding />
         </state>
       </provider>
