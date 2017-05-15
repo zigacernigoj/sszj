@@ -9,7 +9,7 @@ var baseUrl = "http://sszj.fri.uni-lj.si/datoteke/sprites_low/";
 var dbBesedajson = require('./beseda.json');
 var dbBesedaEnakaKretnja = require('./beseda_enakaKretnja.json');
 var dbBesedaSestavljena = require('./beseda_sestavljena.json');
-var dbSSKJ = require('./sskj_cache.json'); // sskj_cache_poizvedba
+var dbSSKJ = require('./sskj_cache.json');
 
 function getWord(word) {
     return dbBesedajson.filter(

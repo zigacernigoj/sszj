@@ -6,13 +6,15 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
+// var users = require('./routes/users');
 
-var test = require('./routes/test');
+// var test = require('./routes/test');
 var slovar = require('./routes/slovar');
+var sklopi = require('./routes/sklopi');
 // var enakeKretnje = require('./routes/enakeKretnje');
 // var besedaSestavljena = require('./routes/besedaSestavljena');
 // var sskj_cache = require('./routes/sskj_cache');
+// var tematskiSklopi = require('./routes/tematskiSklopi');
 
 var app = express();
 
@@ -29,14 +31,16 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+// app.use('/users', users);
 
 
-app.use('/test', test);
+// app.use('/test', test);
 app.use('/slovar', slovar);
+app.use('/sklopi', sklopi);
 // app.use('/enakeKretnje', enakeKretnje);
 // app.use('/besedaSestavljena', besedaSestavljena);
 // app.use('/sskj_cache', sskj_cache);
+// app.use('/tematskiSklopi', tematskiSklopi);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
