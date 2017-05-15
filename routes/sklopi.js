@@ -44,7 +44,6 @@ router.get('/', function (req, res, next) {
         // send all topics
         for(skl in dbSklopi){
             if(dbSklopi[skl].words != undefined || dbSklopi[skl].words != null){
-                console.log(dbSklopi[skl].words);
                 delete dbSklopi[skl].words;
             }
         }
