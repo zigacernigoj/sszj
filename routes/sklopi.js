@@ -7,10 +7,8 @@ var baseUrl = "http://sszj.fri.uni-lj.si/datoteke/sprites_low/";
 // var baseUrl = "/images/gif/";
 
 var dbBesedajson = require('./beseda.json');
-var dbBesedaEnakaKretnja = require('./beseda_enakaKretnja.json');
-var dbBesedaSestavljena = require('./beseda_sestavljena.json');
-var dbSSKJ = require('./sskj_cache.json');
 var dbSklopi = require('./tematskiSklopi.json');
+
 
 function getWords(sklopID) {
     return dbBesedajson.filter(
@@ -20,8 +18,6 @@ function getWords(sklopID) {
     );
 }
 
-
-
 function getSklop(sklop_name) {
     return dbSklopi.filter(
         function (dbSklopi) {
@@ -30,8 +26,6 @@ function getSklop(sklop_name) {
     );
 }
 
-
-// beseda_tematskiSklop_id
 
 router.get('/', function (req, res, next) {
 
@@ -43,14 +37,20 @@ router.get('/', function (req, res, next) {
     }
     else if (searchSklop !== undefined && foundSklop[0] !== undefined) {
 
-        var words = getWords(foundSklop[0].tematskiSklop_id);
-
-        foundSklop[0].words = words;
-        
+        foundSklop[0].words = getWords(foundSklop[0].tematskiSklop_id);
         res.send(foundSklop[0]);
     }
     else {
-        // send all words
+        // send all topics
+        for(skl in dbSklopi){
+            if(dbSklopi[skl].words != undefined || dbSklopi[skl].words != null){
+                console.log(dbSklopi[skl].words);
+                delete dbSklopi[skl].words;
+            }
+        }
+        
+
+
         res.send(dbSklopi);
     }
 
