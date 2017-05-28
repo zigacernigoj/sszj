@@ -44,7 +44,6 @@ function getCompositeIds(wordId) {
     );
 }
 
-
 function getSSKJopis(word) {
     return dbSSKJ.filter(
         function (dbSSKJ) {
@@ -71,9 +70,7 @@ router.get('/', function (req, res, next) {
         res.send(dbBesedajson);
     }
     else {
-
         var foundWord = getWord(searchBeseda);
-
         if (foundWord[0] === undefined) {
             res.send("no word");
         }
@@ -160,12 +157,8 @@ router.get('/', function (req, res, next) {
 
                 }
             }
-
-
         }
     }
-
 });
 
 module.exports = router;
-// connection.end();
