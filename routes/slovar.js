@@ -141,7 +141,6 @@ router.get('/', function (req, res, next) {
                     wordResult.gif1 = gif1;
                     wordResult.gif2 = gif2;
 
-
                     if (word3[0] !== undefined) {
                         var jpg3 = baseUrl + word3[0].beseda_oznaka + '.jpg'; // .jpg
                         composedJpgs += jpg3;
@@ -152,6 +151,8 @@ router.get('/', function (req, res, next) {
                         wordResult.jpg3 = jpg3;
                         wordResult.gif3 = gif3;
                     }
+
+                    wordResult.gifOsnovna = gifUrl + foundWord[0].beseda_oznaka + '.gif';
 
                     res.send(wordResult);
 
