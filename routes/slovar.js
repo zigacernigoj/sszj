@@ -4,7 +4,7 @@ var router = express.Router();
 var gifshot = require('./gifshot');
 
 var baseUrl = "http://sszj.fri.uni-lj.si/datoteke/sprites_low/";
-// var baseUrl = "/images/gif/";
+var gifUrl = "https://sszj.herokuapp.com/images/";
 
 var dbBesedajson = require('./beseda.json');
 var dbBesedaEnakaKretnja = require('./beseda_enakaKretnja.json');
@@ -95,7 +95,7 @@ router.get('/', function (req, res, next) {
                 // found word is OSNOVNA
 
                 wordResult.jpg1 = baseUrl + foundWord[0].beseda_oznaka + '.jpg';
-                wordResult.gif1 = "NOT_AVAILABLE/" + foundWord[0].beseda_oznaka + '.gif';
+                wordResult.gif1 = gifUrl + foundWord[0].beseda_oznaka + '.gif';
 
                 res.send(wordResult);
 
@@ -112,7 +112,7 @@ router.get('/', function (req, res, next) {
                     var sameWord = getWordByID(sameWordsIds[0].beseda_enakaKretnja_osnova_beseda_id);
 
                     wordResult.jpg1 = baseUrl + sameWord[0].beseda_oznaka + '.jpg';
-                    wordResult.gif1 = "NOT_AVAILABLE/" + sameWord[0].beseda_oznaka + '.gif';
+                    wordResult.gif1 = gifUrl + sameWord[0].beseda_oznaka + '.gif';
 
                     wordResult.enaka = sameWord[0].beseda_prava;
 
@@ -131,8 +131,8 @@ router.get('/', function (req, res, next) {
                     var jpg2 = baseUrl + word2[0].beseda_oznaka + '.jpg'; // .jpg
                     var composedJpgs = jpg1 + jpg2;
 
-                    var gif1 = "NOT_AVAILABLE/" + word1[0].beseda_oznaka + '.gif'; // .gif
-                    var gif2 = "NOT_AVAILABLE/" + word2[0].beseda_oznaka + '.gif'; // .gif
+                    var gif1 = gifUrl + word1[0].beseda_oznaka + '.gif'; // .gif
+                    var gif2 = gifUrl + word2[0].beseda_oznaka + '.gif'; // .gif
 
                     wordResult.osnovna1 = word1[0].beseda_oznaka;
                     wordResult.osnovna2 = word2[0].beseda_oznaka;
@@ -146,7 +146,7 @@ router.get('/', function (req, res, next) {
                         var jpg3 = baseUrl + word3[0].beseda_oznaka + '.jpg'; // .jpg
                         composedJpgs += jpg3;
 
-                        var gif3 = "NOT_AVAILABLE/" + word3[0].beseda_oznaka + '.gif'; // .gif
+                        var gif3 = gifUrl + word3[0].beseda_oznaka + '.gif'; // .gif
 
                         wordResult.osnovna3 = word3[0].beseda_oznaka;
                         wordResult.jpg3 = jpg3;
