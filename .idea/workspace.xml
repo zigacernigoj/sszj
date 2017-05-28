@@ -2,74 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="861ee6d3-5b46-40ab-b2ab-6a9af34db8b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/binding.gyp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/canvas-postbuild.node.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/canvas.node.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas-postbuild.node.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas.node.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Canvas.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasGradient.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasPattern.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasRenderingContext2d.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/FontFace.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Image.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/ImageData.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/color.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/init.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas-postbuild.node" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas.node" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas-postbuild.node" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas.node" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Canvas.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasGradient.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasPattern.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasRenderingContext2d.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/FontFace.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Image.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/ImageData.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/color.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/init.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/binding.Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/canvas-postbuild.target.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/canvas.target.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/build/config.gypi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/bindings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/context2d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/jpegstream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/pdfstream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/lib/pngstream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Canvas.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Canvas.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasGradient.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasGradient.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasPattern.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasPattern.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasRenderingContext2d.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/CanvasRenderingContext2d.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/FontFace.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/FontFace.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Image.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Image.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/ImageData.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/ImageData.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/JPEGStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/PNG.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/Point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/closure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/color.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/color.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/src/init.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/canvas/util/has_lib.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/slovar.js" afterPath="$PROJECT_DIR$/routes/slovar.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <file leaf-file-name="sklopi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/sklopi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="380">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -97,75 +32,38 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="304">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/error.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/raw.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sklopi.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/sklopi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tematskiSklopi.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/tematskiSklopi.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slovar.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="slovar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/slovar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
+            <state relative-caret-position="320">
+              <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seznam.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/seznam.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seznam.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/seznam.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,6 +81,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>beseda</find>
+      <find>getssk</find>
+      <find>&quot;r</find>
+      <find>&quot;ra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,13 +97,14 @@
         <option value="$PROJECT_DIR$/routes/enakeKretnje.js" />
         <option value="$PROJECT_DIR$/routes/sskj_cache.js" />
         <option value="$PROJECT_DIR$/routes/tematskiSklopi.js" />
-        <option value="$PROJECT_DIR$/routes/slovar.js" />
         <option value="$PROJECT_DIR$/routes/sklopi.js" />
         <option value="$PROJECT_DIR$/routes/test.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/error.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/seznam.js" />
+        <option value="$PROJECT_DIR$/routes/slovar.js" />
       </list>
     </option>
   </component>
@@ -238,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,13 +164,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,8 +337,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -462,12 +364,15 @@
       <workItem from="1494486970526" duration="11000" />
       <workItem from="1494629976418" duration="37000" />
       <workItem from="1494849962829" duration="4800000" />
-      <workItem from="1494859939594" duration="12731000" />
+      <workItem from="1494859939594" duration="13226000" />
+      <workItem from="1494917872144" duration="54000" />
+      <workItem from="1495299851306" duration="50000" />
+      <workItem from="1495822230391" duration="11767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43051000" />
+    <option name="totallyTimeSpent" value="55417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1046" extended-state="0" />
@@ -475,9 +380,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.0875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.091145836" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.9125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27664155" sideWeight="0.9088542" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.49583334" order="8" side_tool="false" content_ui="tabs" />
@@ -503,22 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sskj_cache.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/slovar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
@@ -562,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,17 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/enakeKretnje.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,15 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sskj_cache.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,15 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/beseda.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="97" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,31 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/tematskiSklopi.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sklopi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/slovar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,10 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="1197">
+          <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -898,10 +717,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/test.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+        <state relative-caret-position="304">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/seznam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/tematskiSklopi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/beseda.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="97" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sskj_cache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="0" column="29926" lean-forward="false" selection-start-line="0" selection-start-column="29923" selection-end-line="0" selection-end-column="29926" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/seznam.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sklopi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/enakeKretnje.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/slovar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
           <folding />
         </state>
       </provider>
