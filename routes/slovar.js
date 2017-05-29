@@ -1,10 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
-var gifshot = require('./gifshot');
-
 var baseUrl = "http://sszj.fri.uni-lj.si/datoteke/sprites_low/";
 var gifUrl = "https://sszj.herokuapp.com/images/";
+var request1 = require('ajax-request');
+
+var LocalStorage = require('node-localstorage').LocalStorage,
+    localStorage = new LocalStorage('./scratch');
+
 
 var dbBesedajson = require('./beseda.json');
 var dbBesedaEnakaKretnja = require('./beseda_enakaKretnja.json');
@@ -52,6 +55,49 @@ function getSSKJopis(word) {
     );
 }
 
+
+function getSSKJopisOnline(word) {
+    request1({
+        url: 'http://bos.zrc-sazu.si/cgi/a03.exe',
+        method: 'GET',
+        data: {
+            name: 'sskj_testa',
+            expression: word
+        }
+    }, function r(err, res1, body) {
+
+        var sskj_content = body;
+        var start = sskj_content.indexOf("<li");
+        var stop = sskj_content.indexOf("<li", start + 1);
+
+        if (!stop) {
+            stop = sskj_content.indexOf("</ol", start + 1);
+        }
+        sskj_content = sskj_content.substring(start, stop);
+
+        // Odstrani vse font tag-e
+        sskj_content = sskj_content.replace(/<font[^>]*>/gi, "");
+        sskj_content = sskj_content.replace(/<\/font>/gi, "");
+
+        // Odstrani vse li tag-e
+        sskj_content = sskj_content.replace(/<li[^>]*>/gi, "");
+        sskj_content = sskj_content.replace(/<\/li>/gi, "");
+
+        // Odstrani nbsp
+        sskj_content = sskj_content.replace(/&nbsp;/gi, '');
+
+        // Odstrani note
+        sskj_content = sskj_content.replace("&#x266A;", "");
+
+        if (sskj_content == "") {
+            sskj_content = "<i>Opis ni na voljo.</i>";
+        }
+
+    });
+
+}
+
+
 function getTematskiSklop(sklopId) {
     return dbSklopi.filter(
         function (dbSklopi) {
@@ -70,95 +116,134 @@ router.get('/', function (req, res, next) {
         res.send(dbBesedajson);
     }
     else {
+
+
         var foundWord = getWord(searchBeseda);
         if (foundWord[0] === undefined) {
             res.send("no word");
         }
-        else if (foundWord[0] !== undefined) {
+        else if (foundWord[0] !== undefined) { /////////
+            
+            request1({
+                url: 'http://bos.zrc-sazu.si/cgi/a03.exe',
+                method: 'GET',
+                data: {
+                    name: 'sskj_testa',
+                    expression: searchBeseda.toLowerCase()
+                }
+            }, function r(err, res1, body) {
 
-            var wordResult = {};
+                var sskj_content = body;
+                var start = sskj_content.indexOf("<li");
+                var stop = sskj_content.indexOf("<li", start + 1);
 
-            wordResult.id = foundWord[0].beseda_id;
-            wordResult.beseda = foundWord[0].beseda_prava;
-            wordResult.osnovna = foundWord[0].beseda_osnova;
+                if (!stop) {
+                    stop = sskj_content.indexOf("</ol", start + 1);
+                }
+                sskj_content = sskj_content.substring(start, stop);
 
-            var sklop = getTematskiSklop(foundWord[0].beseda_tematskiSklop_id);
-            wordResult.sklopId = sklop.tematskiSklop_id;
-            wordResult.sklopName = sklop.tematskiSklop_ime;
+                // Odstrani vse font tag-e
+                sskj_content = sskj_content.replace(/<font[^>]*>/gi, "");
+                sskj_content = sskj_content.replace(/<\/font>/gi, "");
 
-            if (getSSKJopis(foundWord[0].beseda_prava)[0] != undefined) {
-                wordResult.sskjGeslo = getSSKJopis(foundWord[0].beseda_prava)[0].sskj_cache_poizvedba;
-                wordResult.sskjOpis = getSSKJopis(foundWord[0].beseda_prava)[0].sskj_cache_vsebina;
-            }
+                // Odstrani vse li tag-e
+                sskj_content = sskj_content.replace(/<li[^>]*>/gi, "");
+                sskj_content = sskj_content.replace(/<\/li>/gi, "");
 
-            if (foundWord[0].beseda_osnova === 1) {
-                // found word is OSNOVNA
+                // Odstrani nbsp
+                sskj_content = sskj_content.replace(/&nbsp;/gi, '');
 
-                wordResult.jpg1 = baseUrl + foundWord[0].beseda_oznaka + '.jpg';
-                wordResult.gif1 = gifUrl + foundWord[0].beseda_oznaka + '.gif';
+                // Odstrani note
+                sskj_content = sskj_content.replace("&#x266A;", "");
 
-                res.send(wordResult);
+                if (sskj_content == "") {
+                    sskj_content = "<i>Opis ni na voljo.</i>";
+                }
 
-            }
-            else {
-                // found word isn't OSNOVNA
 
-                var sameWordsIds = getSameIds(foundWord[0].beseda_id);
-                var composedWordsIds = getCompositeIds(foundWord[0].beseda_id);
+                var wordResult = {};
 
-                if (sameWordsIds[0] !== undefined) {
-                    // found word is same as other word
+                wordResult.id = foundWord[0].beseda_id;
+                wordResult.beseda = foundWord[0].beseda_prava;
+                wordResult.osnovna = foundWord[0].beseda_osnova;
 
-                    var sameWord = getWordByID(sameWordsIds[0].beseda_enakaKretnja_osnova_beseda_id);
+                var sklop = getTematskiSklop(foundWord[0].beseda_tematskiSklop_id);
+                wordResult.sklopId = sklop.tematskiSklop_id;
+                wordResult.sklopName = sklop.tematskiSklop_ime;
 
-                    wordResult.jpg1 = baseUrl + sameWord[0].beseda_oznaka + '.jpg';
-                    wordResult.gif1 = gifUrl + sameWord[0].beseda_oznaka + '.gif';
 
-                    wordResult.enaka = sameWord[0].beseda_prava;
+                wordResult.sskjOpis = sskj_content;
+
+                if (foundWord[0].beseda_osnova === 1) {
+                    // found word is OSNOVNA
+
+                    wordResult.jpg1 = baseUrl + foundWord[0].beseda_oznaka + '.jpg';
+                    wordResult.gif1 = gifUrl + foundWord[0].beseda_oznaka + '.gif';
 
                     res.send(wordResult);
 
                 }
-                else if (composedWordsIds[0] !== undefined) {
-                    // found word is composed of multiple words
+                else {
+                    // found word isn't OSNOVNA
 
-                    // TODO: find and combine images of words
-                    var word1 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova1_beseda_id);
-                    var word2 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova2_beseda_id);
-                    var word3 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova3_beseda_id);
+                    var sameWordsIds = getSameIds(foundWord[0].beseda_id);
+                    var composedWordsIds = getCompositeIds(foundWord[0].beseda_id);
 
-                    var jpg1 = baseUrl + word1[0].beseda_oznaka + '.jpg'; // .jpg
-                    var jpg2 = baseUrl + word2[0].beseda_oznaka + '.jpg'; // .jpg
-                    var composedJpgs = jpg1 + jpg2;
+                    if (sameWordsIds[0] !== undefined) {
+                        // found word is same as other word
 
-                    var gif1 = gifUrl + word1[0].beseda_oznaka + '.gif'; // .gif
-                    var gif2 = gifUrl + word2[0].beseda_oznaka + '.gif'; // .gif
+                        var sameWord = getWordByID(sameWordsIds[0].beseda_enakaKretnja_osnova_beseda_id);
 
-                    wordResult.osnovna1 = word1[0].beseda_oznaka;
-                    wordResult.osnovna2 = word2[0].beseda_oznaka;
-                    wordResult.jpg1 = jpg1;
-                    wordResult.jpg2 = jpg2;
-                    wordResult.gif1 = gif1;
-                    wordResult.gif2 = gif2;
+                        wordResult.jpg1 = baseUrl + sameWord[0].beseda_oznaka + '.jpg';
+                        wordResult.gif1 = gifUrl + sameWord[0].beseda_oznaka + '.gif';
 
-                    if (word3[0] !== undefined) {
-                        var jpg3 = baseUrl + word3[0].beseda_oznaka + '.jpg'; // .jpg
-                        composedJpgs += jpg3;
+                        wordResult.enaka = sameWord[0].beseda_prava;
 
-                        var gif3 = gifUrl + word3[0].beseda_oznaka + '.gif'; // .gif
+                        res.send(wordResult);
 
-                        wordResult.osnovna3 = word3[0].beseda_oznaka;
-                        wordResult.jpg3 = jpg3;
-                        wordResult.gif3 = gif3;
                     }
+                    else if (composedWordsIds[0] !== undefined) {
+                        // found word is composed of multiple words
 
-                    wordResult.gifOsnovna = gifUrl + foundWord[0].beseda_oznaka + '.gif';
+                        // TODO: find and combine images of words
+                        var word1 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova1_beseda_id);
+                        var word2 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova2_beseda_id);
+                        var word3 = getWordByID(composedWordsIds[0].beseda_sestavljena_osnova3_beseda_id);
 
-                    res.send(wordResult);
+                        var jpg1 = baseUrl + word1[0].beseda_oznaka + '.jpg'; // .jpg
+                        var jpg2 = baseUrl + word2[0].beseda_oznaka + '.jpg'; // .jpg
+                        var composedJpgs = jpg1 + jpg2;
 
+                        var gif1 = gifUrl + word1[0].beseda_oznaka + '.gif'; // .gif
+                        var gif2 = gifUrl + word2[0].beseda_oznaka + '.gif'; // .gif
+
+                        wordResult.osnovna1 = word1[0].beseda_oznaka;
+                        wordResult.osnovna2 = word2[0].beseda_oznaka;
+                        wordResult.jpg1 = jpg1;
+                        wordResult.jpg2 = jpg2;
+                        wordResult.gif1 = gif1;
+                        wordResult.gif2 = gif2;
+
+                        if (word3[0] !== undefined) {
+                            var jpg3 = baseUrl + word3[0].beseda_oznaka + '.jpg'; // .jpg
+                            composedJpgs += jpg3;
+
+                            var gif3 = gifUrl + word3[0].beseda_oznaka + '.gif'; // .gif
+
+                            wordResult.osnovna3 = word3[0].beseda_oznaka;
+                            wordResult.jpg3 = jpg3;
+                            wordResult.gif3 = gif3;
+                        }
+
+                        wordResult.gifOsnovna = gifUrl + foundWord[0].beseda_oznaka + '.gif';
+
+                        res.send(wordResult);
+
+                    }
                 }
-            }
-        }
+            });
+
+        }///////
     }
 });
 

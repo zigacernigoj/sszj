@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-var gifshot = require('./gifshot');
-
 var baseUrl = "http://sszj.fri.uni-lj.si/datoteke/sprites_low/";
 // var baseUrl = "/images/gif/";
 
