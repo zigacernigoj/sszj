@@ -120,6 +120,8 @@ router.get('/', function (req, res, next) {
 
                     wordResult.enaka = sameWord[0].beseda_prava;
 
+                    wordResult.osnovne = [wordResult.enaka];
+
                     res.send(wordResult);
 
                 }
@@ -146,6 +148,7 @@ router.get('/', function (req, res, next) {
                     wordResult.gif2 = gif2;
 
                     wordResult.jpg = [jpg1, jpg2];
+                    wordResult.osnovne = [wordResult.osnovna1, wordResult.osnovna2];
 
 
                     if (word3[0] !== undefined) {
@@ -159,6 +162,7 @@ router.get('/', function (req, res, next) {
                         wordResult.gif3 = gif3;
 
                         wordResult.jpg.push(jpg3);
+                        wordResult.osnovne.push(wordResult.osnovna3);
                     }
 
                     wordResult.gifOsnovna = gifUrl + foundWord[0].beseda_oznaka + '.gif';
