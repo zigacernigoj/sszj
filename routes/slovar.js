@@ -97,6 +97,8 @@ router.get('/', function (req, res, next) {
                 wordResult.jpg1 = baseUrl + foundWord[0].beseda_oznaka + '.jpg';
                 wordResult.gif1 = gifUrl + foundWord[0].beseda_oznaka + '.gif';
 
+                wordResult.jpg = [wordResult.jpg1];
+
                 res.send(wordResult);
 
             }
@@ -113,6 +115,8 @@ router.get('/', function (req, res, next) {
 
                     wordResult.jpg1 = baseUrl + sameWord[0].beseda_oznaka + '.jpg';
                     wordResult.gif1 = gifUrl + sameWord[0].beseda_oznaka + '.gif';
+
+                    wordResult.jpg = [wordResult.jpg1];
 
                     wordResult.enaka = sameWord[0].beseda_prava;
 
@@ -141,6 +145,9 @@ router.get('/', function (req, res, next) {
                     wordResult.gif1 = gif1;
                     wordResult.gif2 = gif2;
 
+                    wordResult.jpg = [jpg1, jpg2];
+
+
                     if (word3[0] !== undefined) {
                         var jpg3 = baseUrl + word3[0].beseda_oznaka + '.jpg'; // .jpg
                         composedJpgs += jpg3;
@@ -150,6 +157,8 @@ router.get('/', function (req, res, next) {
                         wordResult.osnovna3 = word3[0].beseda_oznaka;
                         wordResult.jpg3 = jpg3;
                         wordResult.gif3 = gif3;
+
+                        wordResult.jpg.push(jpg3);
                     }
 
                     wordResult.gifOsnovna = gifUrl + foundWord[0].beseda_oznaka + '.gif';
