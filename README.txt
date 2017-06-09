@@ -5,4 +5,5 @@ V konzoli se premakni do mape, kjer se nahaja ta Readme.
 Pojdi v podmapo bin in nato v podmapo www
 Vpiši ukaz "node www". Api dela in je dostopen na naslovu https://localhost:3000
 
-API pa je dostopen tudi na naslovu: https://sszj.herokuapp.com/
+Delujoč API je dostopen tudi na naslovu: https://sszj.herokuapp.com/
+Na githubu je dostopna koda: https://github.com/zigacernigoj/sszj
